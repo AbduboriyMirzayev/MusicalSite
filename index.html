@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melodi</title>
+    <link rel="shortcut icon" href="img/logo/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="font-icons/css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body data-spy="scroll" data-target="#nav" data-offset="0">
+    <header>
+        <nav class="header-top__line fixed-top">
+            <div class="container d-flex justify-content-between align-items-center">
+                <div class="d-flex py-2">
+                    <div class="mr-2">
+                        <span class="line__title">Phone:</span>
+                        <a class="line__link" href="tel:+998905555555">5555555</a>
+                    </div>
+                    <div>
+                        <span class="line__title">E-mail:</span>
+                        <a class="line__link" href="#">milion_programs@mail.ru</a>
+                    </div>
+                </div>
+                <div>
+                    <a class="line-icon__link f" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="line-icon__link tw" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="line-icon__link g" href="#"><i class="fab fa-google-plus-g"></i></a>
+                    <a class="line-icon__link in" href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </nav>
+        <nav class="header-bg fixed-top">
+            <div class="container flex-wrap navbar navbar-expand-md nav">
+                <div class="logo">
+                    <a href="#home"><img class="nav-brand" src="img/logo/logo.png" alt=""></a>
+                </div>
+                <button class="navbar-toggler text-light" type="button" data-toggle="collapse" data-target="#navbar">
+                    =
+                </button>
+                <div class="collapse navbar-collapse justify-content-end nav-wrapper" id="navbar">
+                    <ul class="navbar-nav" id="nav">
+                        <li class="nav-item">
+                            <a class="nav-link active-link" href="#home">Latest Album</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#album">Featured Album</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#joinUs">Join Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#events">Events</a>
+                        </li>
+                        <li class="nav-item">
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="carousel slide home" id="home" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="img/banner/b1.jpg" alt="">
+                <div class="carousel-item__texts">
+                    <h2 class="texts-title animated fadeInLeftBig delay-2s">
+                        <i class="fas fa-music text-light text-icon"></i>
+                        Melodi For You!
+                    </h2>
+                    <p class="texts-item animated fadeInRightBig delay-4s">Find More Innovative & Creative Music
+                        Albums.
+                    </p>
+                    <button class="texts-btn animated fadeInUpBig delay-4s">Download Here</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="img/banner/b2.jpg" alt="">
+                <div class="carousel-item__texts">
+                    <h2 class="texts-title animated fadeInLeftBig animate__delay-2s">
+                        <i class="fas fa-headphones text-light text-icon"></i>
+                        Listen It...
+                    </h2>
+                    <p class="texts-item animated fadeInRightBig animate__delay-2s">Lorem ipsum dolor sit amet,
+                        consectetur elit.</p>
+                    <button class="texts-btn animated fadeInUpBig animate__delay-2s">Listen now</button>
+                </div>
+            </div>
+        </div>
+        <div class="nav-animate"></div>
+    </section>
+    <a class="scroll-top" href="#home">
+        <i class="fas fa-angle-up"></i>
+    </a>
+    <section class="album py-5 mt-5" id="album">
+        <audio class="audio d-none" src="audio/main-music.mp3"></audio>
+        <div class="container">
+            <h3 class="album__title">Latest Album</h3>
+            <div class="hr"></div>
+            <p class="album-text animated fadeInUp">We sing the best <span class="album-text--red">Songs</span> and
+                now
+                we control the
+                world best <span class="album-text--red">Music</span></p>
+            <div class="album-wrapper d-flex">
+                <div class="wrapper-left-side w-100 px-4 text-center">
+                    <div class="position-relative w-100">
+                        <img class="w-100" src="img/album/1.jpg" alt="">
+                        <img class="disc-img position-absolute" src="img/album/disk.png" alt="">
+                    </div>
+                    <div class="left-side__title">PERFECT MELODI</div>
+                    <p class="left-side__text--sec">By Himanshu</p>
+                    <p class="left-side__text">Lorem Ipsum has been the industry's standard dummy text ever since
+                        1500.
+                    </p>
+                    <button class="texts-btn" onclick="playPouse()"><i class="fas fa-play texts-icon"></i> Play Now</button>
+                </div>
+                <div class="wrapper-right-side w-100">
+                    <div class="container album__block-wrapper">
+                        <div class="music-block">
+                            <audio class="music-block__audio d-none"  src="audio/devochka-tansuy.mp3"></audio>
+                            <div>
+                                <div class="block-title">Девочка танцуй</div>
+                                <div class="d-flex block-cotigory">
+                                    <div class="category-title">Albom: </div>
+                                    <div class="category-texe">Title</div>
+
+                                    <div class="category-title">Type: </div>
+                                    <div class="category-texe">Rock</div>
+
+                                    <div class="category-title">Albom: </div>
+                                    <div class="category-texe no-brd">Title</div>
+                                </div>
+                            </div>
+                            <div class="text-danger">
+                                <i class="fas fa-play album-icon mr-2" onclick="musicPlayer(this)"></i>
+                            </div>
+                        </div>
+                        <div class="music-block">
+                            <audio class="music-block__audio d-none" data-stats="active" src="audio/august.mp3"></audio>
+                            <div>
+                                <div class="block-title">Август</div>
+                                <div class="d-flex block-cotigory">
+                                    <div class="category-title">Albom: </div>
+                                    <div class="category-texe">Title</div>
+
+                                    <div class="category-title">Type: </div>
+                                    <div class="category-texe">Rock</div>
+
+                                    <div class="category-title">Albom: </div>
+                                    <div class="category-texe no-brd">Title</div>
+                                </div>
+                            </div>
+                            <div class="text-danger">
+                                <i class="fas fa-play album-icon mr-2" onclick="musicPlayer(this)"></i>
+                            </div>
+                        </div>
+                        <div class="music-block">
+                            <audio class="music-block__audio d-none" src="audio/detka.mp3"></audio>
+                            <div>
+                                <div class="block-title">Детка</div>
+                                <div class="d-flex block-cotigory">
+                                    <div class="category-title">Albom: </div>
+                                    <div class="category-texe">Title</div>
+
+                                    <div class="category-title">Type: </div>
+                                    <div class="category-texe">Rock</div>
+
+                                    <div class="category-title">Albom: </div>
+                                    <div class="category-texe no-brd">Title</div>
+                                </div>
+                            </div>
+                            <div class="text-danger">
+                                <i class="fas fa-play album-icon mr-2" onclick="musicPlayer(this)"></i>
+                            </div>
+                        </div>
+                        <div class="music-block">
+                            <audio class="music-block__audio d-none" src="audio/noti.mp3"></audio>
+                            <div>
+                                <div class="block-title">Ноты</div>
+                                <div class="d-flex block-cotigory">
+                                    <div class="category-title">Albom: </div>
+                                    <div class="category-texe">Title</div>
+
+                                    <div class="category-title">Type: </div>
+                                    <div class="category-texe">Rock</div>
+
+                                    <div class="category-title">Albom: </div>
+                                    <div class="category-texe no-brd">Title</div>
+                                </div>
+                            </div>
+                            <div class="text-danger">
+                                <i class="fas fa-play album-icon mr-2" onclick="musicPlayer(this)"></i>
+                            </div>
+                        </div>
+                        <div class="music-block">
+                            <audio class="music-block__audio d-none" src="audio/provoda.mp3"></audio>
+                            <div>
+                                <div class="block-title">Да Да Да провода</div>
+                                <div class="d-flex block-cotigory">
+                                    <div class="category-title">Albom: </div>
+                                    <div class="category-texe">Title</div>
+
+                                    <div class="category-title">Type: </div>
+                                    <div class="category-texe">Rock</div>
+
+                                    <div class="category-title">Albom: </div>
+                                    <div class="category-texe no-brd">Title</div>
+                                </div>
+                            </div>
+                            <div class="text-danger">
+                                <i class="fas fa-play album-icon mr-2" onclick="musicPlayer(this)"></i>
+                            </div>
+                        </div>
+                        <div class="music-block">
+                            <audio class="music-block__audio d-none" src="audio/WayDownWeGo.mp3"></audio>
+                            <div>
+                                <div class="block-title">Way Down We Go</div>
+                                <div class="d-flex block-cotigory">
+                                    <div class="category-title">Albom: </div>
+                                    <div class="category-texe">Title</div>
+
+                                    <div class="category-title">Type: </div>
+                                    <div class="category-texe">Rock</div>
+
+                                    <div class="category-title">Albom: </div>
+                                    <div class="category-texe no-brd">Title</div>
+                                </div>
+                            </div>
+                            <div class="text-danger">
+                                <i class="fas fa-play album-icon mr-2" onclick="musicPlayer(this)"></i>
+                            </div>
+                        </div>
+                        <div class="music-block">
+                            <audio class="music-block__audio d-none" src="audio/BrokenBones.mp3"></audio>
+                            <div>
+                                <div class="block-title">Broken Bones</div>
+                                <div class="d-flex block-cotigory">
+                                    <div class="category-title">Albom: </div>
+                                    <div class="category-texe">Title</div>
+
+                                    <div class="category-title">Type: </div>
+                                    <div class="category-texe">Rock</div>
+
+                                    <div class="category-title">Albom: </div>
+                                    <div class="category-texe no-brd">Title</div>
+                                </div>
+                            </div>
+                            <div class="text-danger">
+                                <i class="fas fa-play album-icon mr-2" onclick="musicPlayer(this)"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="promo bg-fixed">
+        <div class="container">
+            <h3 class="promo__title">Music An Art...</h3>
+            <p class="promo__text">Music is an art form and cultural activity whose medium is sound organized in
+                time.
+                The common elements of music are <span class="promo__text--bold">pitch, rhythm, dynamics</span> and
+                the
+                sonic qualities of <span class="promo__text--bold">timbre</span> and <span
+                    class="promo__text--bold">texture</span>.</p>
+            <a class="promo__icon-link icon-link" href="#"><i class="fas fa-play promo__icon icon"></i></a>
+        </div>
+    </section>
+    <section class="featured" id="joinUs">
+        <div class="container py-5">
+            <h4 class="featured__title">Featured Album</h4>
+            <div class="featured-block__wrapper py-5">
+                <div class="featured__block">
+                    <div class="block-img__wrapper">
+                        <img class="block__img" src="img/featured/1.jpg" alt="">
+                        <div class="block-img__text">
+                            There are many variations of passages available, but the majority have suffered Lorem
+                            alteration in some form, by injected look even slightly believable.
+                        </div>
+                    </div>
+                    <div class="block__title">POWER POP</div>
+                    <div class="block__hr"></div>
+                    <div class="block__text">
+                        <div class="block-text__item">1024+ <span class="block-text__badge">Like</span></div>
+                        <div class="block-text__item">825+ <span class="block-text__badge">Love</span></div>
+                    </div>
+                </div>
+                <div class="featured__block">
+                    <div class="block-img__wrapper">
+                        <img class="block__img" src="img/featured/1.jpg" alt="">
+                        <div class="block-img__text">
+                            There are many variations of passages available, but the majority have suffered Lorem
+                            alteration in some form, by injected look even slightly believable.
+                        </div>
+                    </div>
+                    <div class="block__title">POWER POP</div>
+                    <div class="block__hr"></div>
+                    <div class="block__text">
+                        <div class="block-text__item">1024+ <span class="block-text__badge">Like</span></div>
+                        <div class="block-text__item">825+ <span class="block-text__badge">Love</span></div>
+                    </div>
+                </div>
+                <div class="featured__block">
+                    <div class="block-img__wrapper">
+                        <img class="block__img" src="img/featured/1.jpg" alt="">
+                        <div class="block-img__text">
+                            There are many variations of passages available, but the majority have suffered Lorem
+                            alteration in some form, by injected look even slightly believable.
+                        </div>
+                    </div>
+                    <div class="block__title">POWER POP</div>
+                    <div class="block__hr"></div>
+                    <div class="block__text">
+                        <div class="block-text__item">1024+ <span class="block-text__badge">Like</span></div>
+                        <div class="block-text__item">825+ <span class="block-text__badge">Love</span></div>
+                    </div>
+                </div>
+                <div class="featured__block">
+                    <div class="block-img__wrapper">
+                        <img class="block__img" src="img/featured/1.jpg" alt="">
+                        <div class="block-img__text">
+                            There are many variations of passages available, but the majority have suffered Lorem
+                            alteration in some form, by injected look even slightly believable.
+                        </div>
+                    </div>
+                    <div class="block__title">POWER POP</div>
+                    <div class="block__hr"></div>
+                    <div class="block__text">
+                        <div class="block-text__item">1024+ <span class="block-text__badge">Like</span></div>
+                        <div class="block-text__item">825+ <span class="block-text__badge">Love</span></div>
+                    </div>
+                </div>
+                <div class="featured__block">
+                    <div class="block-img__wrapper">
+                        <img class="block__img" src="img/featured/1.jpg" alt="">
+                        <div class="block-img__text">
+                            There are many variations of passages available, but the majority have suffered Lorem
+                            alteration in some form, by injected look even slightly believable.
+                        </div>
+                    </div>
+                    <div class="block__title">POWER POP</div>
+                    <div class="block__hr"></div>
+                    <div class="block__text">
+                        <div class="block-text__item">1024+ <span class="block-text__badge">Like</span></div>
+                        <div class="block-text__item">825+ <span class="block-text__badge">Love</span></div>
+                    </div>
+                </div>
+                <div class="featured__block">
+                    <div class="block-img__wrapper">
+                        <img class="block__img" src="img/featured/1.jpg" alt="">
+                        <div class="block-img__text">
+                            There are many variations of passages available, but the majority have suffered Lorem
+                            alteration in some form, by injected look even slightly believable.
+                        </div>
+                    </div>
+                    <div class="block__title">POWER POP</div>
+                    <div class="block__hr"></div>
+                    <div class="block__text">
+                        <div class="block-text__item">1024+ <span class="block-text__badge">Like</span></div>
+                        <div class="block-text__item">825+ <span class="block-text__badge">Love</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="advertising-album bg-fixed">
+        <div class="container advertising__wrapper">
+            <div class="advertising-text__wrapper">
+                <div class="advertising__title">
+                    Melodi, A Fully Rock Album Pro
+                </div>
+                <p class="advertising__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore
+                    et dolore magna aliqua. Ut enim sectetur adipiscing elit, sed do eiusmod tempoad minim veniam
+                    consequat.
+                </p>
+            </div>
+            <button class="advertising__btn">Download Now</button>
+        </div>
+    </section>
+    <section class="work-us">
+        <div class="container">
+            <h4 class="work-us__title">WORK WITH US</h4>
+            <p class="work-us__text">It would be a great pleasure to have you in our team, follow these steps to
+                join
+                us.</p>
+            <div class="work-us__wrapper">
+                <div class="work-us__block">
+                    <div class="work-block__title">1</div>
+                    <p class="block__text">Sed ut perspi ciatis unde omnis iste natus error sit vol uptatem accus
+                        antium
+                        totam rem aperiam, eaque ipsa quae ab illo inventore veritatisnatus.
+                    </p>
+                </div>
+                <div class="work-us__block">
+                    <div class="work-block__title">2</div>
+                    <p class="block__text">Sed ut perspi ciatis unde omnis iste natus error sit vol uptatem accus
+                        antium
+                        totam rem aperiam, eaque ipsa quae ab illo inventore veritatisnatus.
+                    </p>
+                </div>
+                <div class="work-us__block">
+                    <div class="work-block__title">3</div>
+                    <p class="block__text">Sed ut perspi ciatis unde omnis iste natus error sit vol uptatem accus
+                        antium
+                        totam rem aperiam, eaque ipsa quae ab illo inventore veritatisnatus.
+                    </p>
+                </div>
+                <div class="work-us__block">
+                    <div class="work-block__title">4</div>
+                    <p class="block__text">Sed ut perspi ciatis unde omnis iste natus error sit vol uptatem accus
+                        antium
+                        totam rem aperiam, eaque ipsa quae ab illo inventore veritatisnatus.
+                    </p>
+                </div>
+            </div>
+            <button class="texts-btn mx-auto d-block mt-5 work-us__btn">Join Now</button>
+        </div>
+    </section>
+    <section class="sing-up">
+        <div class="container">
+            <h4 class="sing-up__title">Sign Up For Newsletter</h4>
+            <p class="sing-up__text">
+                <span class="sing-up__text--red">Contact Us</span>
+                and let us know if you have any questions, Don't forget to subscribe for more awesome stuff by
+                typing
+                mail bellow.
+            </p>
+            <form class="sing-up__form" action="">
+                <input class="sing-up__inp" type="text" placeholder="Email">
+                <button class="sing-up__btn">Subscribe</button>
+            </form>
+        </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h4 class="portfolio__title mb-5">PORTFOLIO</h4>
+            <div class="d-flex portfolio__wrapper pt-5">
+                <div class="portfolio-img__wrapper portfolio__wrapper--active">
+                    <img class="portfolio__img" src="img/portfolio/1.jpg" alt="">
+                    <div class="p__hover">
+                        <div class="p-hover__title">Album Title</div>
+                        <div class="p-hover__hr"></div>
+                        <p class="p-hover__text">Some detailes about album</p>
+                        <a class="p-hover__icon" href="#"><i class="fas fa-share"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-img__wrapper">
+                    <img class="portfolio__img" src="img/portfolio/1.jpg" alt="">
+                    <div class="p__hover">
+                        <div class="p-hover__title">Album Title</div>
+                        <div class="p-hover__hr"></div>
+                        <p class="p-hover__text">Some detailes about album</p>
+                        <a class="p-hover__icon" href="#"><i class="fas fa-share"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-img__wrapper">
+                    <img class="portfolio__img" src="img/portfolio/1.jpg" alt="">
+                    <div class="p__hover">
+                        <div class="p-hover__title">Album Title</div>
+                        <div class="p-hover__hr"></div>
+                        <p class="p-hover__text">Some detailes about album</p>
+                        <a class="p-hover__icon" href="#"><i class="fas fa-share"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a class="portfolio__btn mt-5" href="#">View more</a>
+        </div>
+    </section>
+    <section class="event bg-fixed" id="events">
+        <div class="container">
+            <h5 class="event__title title">COMING EVENTS</h5>
+            <div class="event-block__wrapper">
+                <div class="event-wrapper__item">
+                    <div class="event__block">
+                        <div class="event-block__item">
+                            <img class="event__img" src="img/event/1.jpg" alt="">
+                            <div class="event__city">
+                                <i class="fas fa-map-marker-alt"></i>
+                                New York
+                            </div>
+                            <div class="event-data__wrapper">
+                                <div class="event__date">
+                                    <span class="event-date__item event-date__item--big">24</span>
+                                    Jan
+                                </div>
+                                <div class="event__time">
+                                    <span class="event__time-block" id="event-time">06:30</span>
+                                    pm
+                                </div>
+                            </div>
+                        </div>
+                        <div class="event-block__title">
+                            SOUND OF MELODI IN INSTRUMESNTS
+                        </div>
+                        <div class="event-block__hr"></div>
+                        <p class="event-block__text">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum obcaecati assumenda
+                            cumque,
+                            perspiciatis itaque recusandae voluptate consequatur unde debitis corporis fugiat....<a
+                                class="event-text__link" href="#">more</a>
+                        </p>
+                        <button class="event-block__btn">Book Ticket</button>
+                    </div>
+                    <div class="event__block">
+                        <div class="event-block__item">
+                            <img class="event__img" src="img/event/1.jpg" alt="">
+                            <div class="event__city">
+                                <i class="fas fa-map-marker-alt"></i>
+                                New York
+                            </div>
+                            <div class="event-data__wrapper">
+                                <div class="event__date">
+                                    <span class="event-date__item event-date__item--big">24</span>
+                                    Jan
+                                </div>
+                                <div class="event__time">
+                                    <span class="event__time-block" id="event-time">06:30</span>
+                                    pm
+                                </div>
+                            </div>
+                        </div>
+                        <div class="event-block__title">
+                            SOUND OF MELODI IN INSTRUMESNTS
+                        </div>
+                        <div class="event-block__hr"></div>
+                        <p class="event-block__text">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum obcaecati assumenda
+                            cumque,
+                            perspiciatis itaque recusandae voluptate consequatur unde debitis corporis fugiat....<a
+                                class="event-text__link" href="#">more</a>
+                        </p>
+                        <button class="event-block__btn">Book Ticket</button>
+                    </div>
+                </div>
+                <div class="event-wrapper__item">
+                    <div class="event__block">
+                        <div class="event-block__item">
+                            <img class="event__img" src="img/event/1.jpg" alt="">
+                            <div class="event__city">
+                                <i class="fas fa-map-marker-alt"></i>
+                                New York
+                            </div>
+                            <div class="event-data__wrapper">
+                                <div class="event__date">
+                                    <span class="event-date__item event-date__item--big">24</span>
+                                    Jan
+                                </div>
+                                <div class="event__time">
+                                    <span class="event__time-block" id="event-time">06:30</span>
+                                    pm
+                                </div>
+                            </div>
+                        </div>
+                        <div class="event-block__title">
+                            SOUND OF MELODI IN INSTRUMESNTS
+                        </div>
+                        <div class="event-block__hr"></div>
+                        <p class="event-block__text">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum obcaecati assumenda
+                            cumque,
+                            perspiciatis itaque recusandae voluptate consequatur unde debitis corporis fugiat....<a
+                                class="event-text__link" href="#">more</a>
+                        </p>
+                        <button class="event-block__btn">Book Ticket</button>
+                    </div>
+                    <div class="event__block">
+                        <div class="event-block__item">
+                            <img class="event__img" src="img/event/1.jpg" alt="">
+                            <div class="event__city">
+                                <i class="fas fa-map-marker-alt"></i>
+                                New York
+                            </div>
+                            <div class="event-data__wrapper">
+                                <div class="event__date">
+                                    <span class="event-date__item event-date__item--big">24</span>
+                                    Jan
+                                </div>
+                                <div class="event__time">
+                                    <span class="event__time-block" id="event-time">06:30</span>
+                                    pm
+                                </div>
+                            </div>
+                        </div>
+                        <div class="event-block__title">
+                            SOUND OF MELODI IN INSTRUMESNTS
+                        </div>
+                        <div class="event-block__hr"></div>
+                        <p class="event-block__text">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum obcaecati assumenda
+                            cumque,
+                            perspiciatis itaque recusandae voluptate consequatur unde debitis corporis fugiat....<a
+                                class="event-text__link" href="#">more</a>
+                        </p>
+                        <button class="event-block__btn">Book Ticket</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="meet">
+        <div class="container meet__wrapper">
+            <div class="title meet__title mt-0">
+                UPCOMING MEETS
+            </div>
+            <div class="meet-img__wrapper">
+                <img class="meet-img" src="img/flat/map.png" alt="">
+                <a class="map-marker usa" href="#" title="Unated State">
+                    <img class="marker-img" src="img/flat/map-marker.png" alt="">
+                </a>
+                <a class="map-marker sa" href="#" title="Africa">
+                    <img class="marker-img" src="img/flat/map-marker.png" alt="">
+                </a>
+                <a class="map-marker india" href="#" title="Indeia">
+                    <img class="marker-img" src="img/flat/map-marker.png" alt="">
+                </a>
+                <a class="map-marker russian" href="#" title="Russia">
+                    <img class="marker-img" src="img/flat/map-marker.png" alt="">
+                </a>
+                <a class="map-marker brazil" href="#" title="Brazil">
+                    <img class="marker-img" src="img/flat/map-marker.png" alt="">
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact__title title">Contact us</div>
+            <div class="d-flex contact__wrapper">
+                <div class="contact__block">
+                    <i class="fas fa-street-view contact__icon"></i>
+                    <p class="contact__text">#30/67, 5th Street, Mega Market Circle, New Delhi - 625001</p>
+                </div>
+                <div class="contact__block">
+                    <i class="fas fa-wifi contact__icon"></i>
+                    <p class="contact__text">music.site@melodi.com</p>
+                </div>
+                <div class="contact__block">
+                    <i class="fas fa-phone-alt contact__icon"></i>
+                    <p class="contact__text">555 555 5555</p>
+                </div>
+            </div>
+            <form class="contact__form" action="">
+                <div class="contact__form-title">Do you have any idea in your mind? Drop us a line.</div>
+                <div class="contact__form-wrapper">
+                    <div class="contact__form-item">
+                        <div class="contact-inp__wrapper">
+                            <label class="contact__form-label" for="">Name</label>
+                            <input class="contact__form-inp" type="text" placeholder="Enter name">
+                        </div>
+                        <div class="contact-inp__wrapper">
+                            <label class="contact__form-label" for="">Email</label>
+                            <input class="contact__form-inp" type="text" placeholder="Enter e-mail">
+                        </div>
+                        <div class="contact-inp__wrapper">
+                            <label class="contact__form-label" for="">Phone</label>
+                            <input class="contact__form-inp" type="text" placeholder="Enter phone">
+                        </div>
+                    </div>
+                    <div class="contact__form-item">
+                        <label class="contact__form-label" for="">Massage</label>
+                        <textarea class="contact__form-inp" name="area" id="" cols="30" rows="10"
+                            placeholder="Enter massage"></textarea>
+                    </div>
+                </div>
+                <button class="contact__form-btn">Send Massage</button>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__icons">
+                <a class="footer__link" href="#">
+                    <i class="fab fa-facebook-f footer__icon footer__f"></i>
+                </a>
+                <a class="footer__link" href="#">
+                    <i class="fab fa-google-plus-g footer__icon footer__g"></i>
+                </a>
+                <a class="footer__link" href="#">
+                    <i class="fab fa-linkedin-in footer__icon footer__l"></i>
+                </a>
+                <a class="footer__link" href="#">
+                    <i class="fab fa-twitter footer__icon footer__t"></i>
+                </a>
+            </div>
+            <p class="footer__text">© copyright 2018, All rights are reserved.</p>
+        </div>
+    </footer>
+    <script src="js/popper.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
