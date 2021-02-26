@@ -1199,11 +1199,24 @@ a:hover {
     font-size: 20px;
   }
 
+  .carousel-item__texts{
+    left:4%;
+  }
+
+  .carousel-item{
+    padding-top: 62px
+  }
+
+
   .featured__title,
   .work-us__title,
   .portfolio__title,
   .title {
     font-size: 30px;
+  }
+
+  .block-img__text{
+    padding: 13px;
   }
 
   .india {
